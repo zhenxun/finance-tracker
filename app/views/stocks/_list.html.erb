@@ -1,6 +1,7 @@
 <table class="table table-striped">
   <thead>
     <tr>
+        <th align="center">No.</th>
         <th>Name</th>
         <th>Symbol</th>
         <th>Current Price</th>
@@ -10,8 +11,9 @@
     </tr>
   </thead>
   <tbody>
-      <% @user_stocks.each do |user_stock| %>
+      <% @user_stocks.each_with_index do |user_stock, index| %>
         <tr>
+          <td align="center"><%= index + 1 %></td>
           <td><%= user_stock.name %></td>
           <td><%= user_stock.ticker %></td>
           <td><%= user_stock.last_price%></td>
