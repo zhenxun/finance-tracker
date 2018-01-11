@@ -69,6 +69,5 @@ group :production do
   
   # use rails_12factor
   gem 'rails_12factor'
-  
 end
 
