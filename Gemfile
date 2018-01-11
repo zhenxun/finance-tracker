@@ -13,6 +13,9 @@ gem 'twitter-bootstrap-rails'
 #use devise-bootstrap-views
 gem 'devise-bootstrap-views'
 
+#use stock quote
+gem 'stock_quote'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
